@@ -1,0 +1,77 @@
+﻿@page "/"
+
+<PageTitle>Jogo de Adivinhação</PageTitle>
+
+<div class="jogo-container">
+    <h1>🎯 Guess the Number! 🎯</h1>
+
+    @if (jogoAtivo)
+    {
+        <p>Olá! Tente adivinhar o número entre 1 e 100.</p>
+        <div class="stats">
+            <span><strong>Tentativas:</strong> @tentativasFeitas / 10</span> | 
+            <span><strong>Pontos:</strong> @pontuacao</span>
+        </div>
+
+        <input type="number" @bind="palpiteUsuario" class="input-palpite" placeholder="Seu palpite..." />
+        <button class="btn-tentar" @onclick="VerificarPalpite">Tentar!</button>
+
+        <p class="mensagem">@mensagem</p>
+    }
+    else
+    {
+        <h2 class="resultado">@mensagem</h2>
+        <p>O número era: <strong>@numeroSecreto</strong></p>
+        <button class="btn-reiniciar" @onclick="ReiniciarJogo">Jogar Novamente</button>
+    }
+</div>
+
+@code {
+    private int numeroSecreto;
+    private int? palpiteUsuario;
+    private int tentativasFeitas = 0;
+    private int pontuacao = 100;
+    private string mensagem = "Boa sorte!";
+    private bool jogoAtivo = true;
+
+    protected override void OnInitialized()
+    {
+        ReiniciarJogo();
+    }
+
+    void VerificarPalpite()
+    {
+        if (palpiteUsuario == null) return;
+
+        tentativasFeitas++;
+
+        if (palpiteUsuario == numeroSecreto)
+        {
+            mensagem = $"🏆 PARABÉNS! Você acertou com {tentativasFeitas} tentativas!";
+            jogoAtivo = false;
+        }
+        else
+        {
+            pontuacao -= 10;
+            if (tentativasFeitas >= 10)
+            {
+                mensagem = "❌ Fim de jogo! Suas tentativas acabaram.";
+                jogoAtivo = false;
+            }
+            else
+            {
+                mensagem = palpiteUsuario < numeroSecreto ? "O número é MAIOR! ⬆️" : "O número é MENOR! ⬇️";
+            }
+        }
+        palpiteUsuario = null; // Limpa o campo para a próxima tentativa
+    }
+
+    void ReiniciarJogo()
+    {
+        numeroSecreto = new Random().Next(1, 101);
+        tentativasFeitas = 0;
+        pontuacao = 100;
+        mensagem = "O jogo começou! Qual seu primeiro palpite?";
+        jogoAtivo = true;
+    }
+}
