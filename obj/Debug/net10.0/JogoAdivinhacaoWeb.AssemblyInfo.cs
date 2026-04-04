@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JogoAdivinhacaoWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99cfa702ecb175930ff231ebe513c90276beaf72")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa40aa9125acbb3e4c442fec74ed7c673a99cc23")]
 [assembly: System.Reflection.AssemblyProductAttribute("JogoAdivinhacaoWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JogoAdivinhacaoWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
