@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "JogoAdivinhacaoWeb",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-6W0s2IRmKKjLppvR9h9bk6aLw83+ZvragMwJK8fAykU=",
+    "hash": "sha256-WHxln0jY8E+8yUonlt/vLvuIHVLvUq29W0vQ+2AaUrA=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.ykrnppwhq2.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "JogoAdivinhacaoWeb.wasm",
-        "name": "JogoAdivinhacaoWeb.zhsm2g7ymn.wasm",
-        "integrity": "sha256-x6sd3xSkQ6sLJbLAzsHRVaJWG01nMv3pdlJKXNNt544=",
+        "name": "JogoAdivinhacaoWeb.un3i8w99ws.wasm",
+        "integrity": "sha256-Cju2MhiWWkcbQtRFzNdGsGjid5vv00wsjNX8DLRJDGE=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "JogoAdivinhacaoWeb.pdb",
-        "name": "JogoAdivinhacaoWeb.ann1r19jbp.pdb",
-        "integrity": "sha256-9hy1drCqWIZ7HdOn5jMVQBGOndoR+iEAtfGOrc/+ze4=",
+        "name": "JogoAdivinhacaoWeb.5r4t4tprwu.pdb",
+        "integrity": "sha256-USVxUb7YFudyMmAp3wFV+8E+IcrGw5MmngK5HWCsJGk=",
         "cache": "force-cache"
       }
     ],
