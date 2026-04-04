@@ -1,0 +1,12 @@
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\wwwroot\index.html
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\publish\web.config
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\publish\JogoAdivinhacaoWeb.runtimeconfig.json
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\publish\JogoAdivinhacaoWeb.staticwebassets.endpoints.json
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\publish\sample-data\weather.json
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\publish\vercel.json
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\publish\wwwroot\sample-data\weather.json
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\sample-data\weather.json
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\vercel.json
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\JogoAdivinhacaoWeb.runtimeconfig.json
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\dotnet.js
+C:\Alunos\Jotha\Desafios\SistemaAdivinhacao\JogoAdivinhacaoWeb\MEU_SITE_PRONTO\web.config
